@@ -8,7 +8,7 @@ areaTriangle = ((baseOfT * heightOfT) / 2)
 print('Area of Triangle :', areaTriangle)
 '''
 
-#Program 2 : Find Area of Square 
+#Program 2 : Find Area of Squaree 
 
 '''
 heightS = float(input('Enter Height of Square :'))
