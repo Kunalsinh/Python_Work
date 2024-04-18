@@ -10,7 +10,7 @@ Applicable
 12% PF on basic salary.
 '''
 
-"""
+
 empBasicSalary = int(input("Enter Basic Salary :"))
 HRA = (empBasicSalary * 15) / 100
 TA = (empBasicSalary * 4) / 100
@@ -21,11 +21,9 @@ TAX = (empBasicSalary * 3) / 100
 
 netIncome = (empBasicSalary + HRA + TA + DA) - (PF + TAX)
 print("Net Salary :",netIncome)
-"""  
 
 # Program 2: - get the marks of 5 subjects at the cmd line and display the totaL of marks and percenatage. 
 
-"""
 import sys
 marksOfSubjects = len(sys.argv)
 print("Sum of Command Line Arguments is given below...")
@@ -37,7 +35,6 @@ sum=0
 for i in range(1,marksOfSubjects):
     sum  += int(sys.argv[i])
 print("\nSum of all values :",sum)
-"""
 
 # Program 3: -
 '''
@@ -49,7 +46,6 @@ More than 250 - Rs. 10/ltr
 '''
 
 
-"""
 usedLiters = int(input("Enter how much water used [in liters] :"))
 rupees = 0
 if(usedLiters < 90):
@@ -65,7 +61,7 @@ elif(usedLiters > 250):
     print("used water in liters are ",usedLiters,"and charge is ",rupees)
 else:
     print("Please enter valid liters")
-"""
+
 
 # Program 4: - 
 '''
@@ -78,8 +74,6 @@ Marks 50 or less than or equal 60 - Can do Better!
 Marks <50 - Need to work hard.
 '''
 
-
-"""
 markOfStudent = int(input("Enter mark of the student :"))
 if(markOfStudent > 90):
     print("Student grade : A1 ")
@@ -95,7 +89,7 @@ elif(markOfStudent < 50):
     print("Neet to work hard.")
 else:
     print("Contact your department.")
-"""
+
 
 # Program 5: -
 '''
@@ -105,7 +99,7 @@ Income more than 8 lakh and less than 10 lakhs - 15% of income
 Income more than 10 lakhs and less than 20 lakhs - 20% of income
 Income more than 20 lakhs - 30% of income
 '''
-"""
+
 yearIncome = int(input("Enter Tax Payer's Yearly Income : "))
 if(yearIncome <= 800000):
     tax  = (yearIncome * 0) / 100
@@ -122,26 +116,25 @@ elif(yearIncome >= 2000000):
 else:
     print("Done!")
 
-"""
+
 
 
 #Program 6: -
 '''
 Accept two integer values in separate variable, display the small value and big value out of it.
 '''
-"""
+
 number1 = int(input("Enter Value in Number1 : "))
 number2 = int(input("Enter Value in Number2 : "))
 print("Number1 is Big and value is ",number1) if number1>number2 else print("Number2 is Big and value is ",number2)
 print("Number1 is Small and value is ",number1) if number1<number2 else print("Number2 is Small and value is ",number2)
-"""
+
 
 #Program 7: -
 '''
 Accept marks from 4 students, display which mark is highest among all.
 '''
 
-"""
 studentOne = int(input("Enter 1st Student marks"))
 studentTwo = int(input("Enter 2nd Student marks"))
 studentThree = int(input("Enter 3rd Student marks"))
@@ -155,7 +148,7 @@ elif(studentThree > studentOne and studentThree > studentTwo and studentThree > 
     print("Thrid Student has highest marks.")
 else:
     print("Fourth Student has highest marks.")
-"""    
+ 
 
 
 #Program 8: -
